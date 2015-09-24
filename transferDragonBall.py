@@ -50,3 +50,5 @@ for DBFile in localDBDir:
            # os.remove(LOCAL_DRAGON_BALL + DBFile)
 
 
+
+somevarhere=1
