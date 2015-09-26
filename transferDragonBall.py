@@ -25,7 +25,7 @@ ssh.connect(sftpURL, username=sftpUser, password=sftpPass)
 ftp = ssh.open_sftp()
 ftp.chdir(REMOTE_DRAGON_BALL)
 
-print ('Procurando o ultimo episodio no pi')
+print ('Procurando o ultimo episodio no pi!!!')
 lastEpisode = 0
 for i in ftp.listdir():
     if lastEpisode < int(i[:i.find('-')]): lastEpisode = int(i[:i.find('-')])
